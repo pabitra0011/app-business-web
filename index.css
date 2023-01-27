@@ -1,0 +1,298 @@
+
+body{
+    max-width: 90%;
+    margin: auto;
+    background-color: #101728;
+    color: white;
+}
+.flex{
+  display: flex;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-col{
+    /* border: 1px solid red; */
+    /* width: 35%; */
+    padding: 3rem 0;
+}
+.imge{
+    width: 100%;
+    border-radius: 5%;
+    
+}
+.txt-color{
+  color: blue;
+}
+
+.btn{
+    border: 1px solid rgb(250, 250, 254);
+    padding: 0.73rem 1rem;
+    background: radial-gradient(rgb(99, 11, 187),rgb(65, 3, 135));
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.span{
+    color: red;
+    /* font-size: 2.7rem; */
+    
+}
+.shadow{
+  box-shadow: 1px 1px 15px 5px rgb(6, 30, 181);
+}
+
+/* header section  --------------- */
+
+.header{
+  
+    justify-content: flex-start;
+   margin: 2rem 2rem;
+}
+.header-logo{
+    padding-left: .5rem;
+}
+.header-name{
+    padding-left: 1rem;
+}
+
+
+
+ /* body section ----------------- */
+
+ .front-page{
+  padding-top: 4rem;
+ }
+ .front-page h1{
+margin-top: 0;
+margin-bottom: 0;
+ }
+
+
+ .font-page-col-text{
+    font-size: 2rem;
+ }
+.col{
+    /* width: 80%; */
+}
+
+ .col-btn{
+    margin: 3rem 0;
+    /* text-align: center; */
+ }
+
+ .col-text{
+    text-align: center;
+ }
+
+
+
+
+  /* second page section  -------------------------------- */
+.second-page{
+  /* margin: 6rem 0; */
+}
+.second-page h1{
+font-size: 2.5rem;
+  }
+.second-page p{
+ font-size: 1.4rem;
+ margin: 3rem 0;
+}
+
+
+
+
+
+
+
+  /* third page section  ----------------------------- */
+
+  .third-page{
+    margin-top: 5rem;
+  }
+  .third-page h1{
+    font-size: 2.9rem;
+  }
+  .third-page p{
+    font-size: 1.5rem;
+  }
+
+
+   /* fourth page --------------------------- */
+
+   .forth-page{
+    /* margin-top: 5rem; */
+  }
+  .forth-page h1{
+    font-size: 2.9rem;
+  }
+  .forth-page p{
+    font-size: 1.5rem;
+  }
+
+
+   /* fifth page ------------------------------ */
+
+
+.fifth-page{
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+   /* footer section ------------------------ */
+
+   .footer{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+   }
+   .footer-container-col-contact h1{
+    font-size: 2.8rem;
+    color: rgb(14, 14, 230);
+   }
+   .footer-container-col-contact p{
+    font-size: 1.3rem;
+   }
+
+   .footer-container-col-social{
+    margin: 4rem 0;
+   }
+   .footer-container-col-social i{
+    
+    font-size: 2rem;
+    padding: 1rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* media query for desktop laptop and others-------- */
+
+
+   @media only screen and (min-width: 600px) {
+    
+    body{
+      max-width: 70vw;
+    }
+    .col{
+     
+    }
+      .header{
+       margin-left: 2rem;
+       padding-bottom: 6rem;
+    }
+    .container{
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+
+    }
+    .img-col{
+      /* border: 1px solid red; */
+      width: 35%;
+      
+  }
+.btn{
+  font-size: 2rem;
+}
+.col-btn{
+ text-align: left;
+}
+
+
+
+/* body section ----- */
+.font-page-col-text h1{
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.front-page{
+  padding-bottom: 5rem;
+}
+
+
+
+/* second page----------------- */
+.second-page{
+  padding:4rem;
+  width: 90%;
+  margin: auto;
+}
+.second-page h1{
+  font-size: 4rem;
+}
+.second-page p{
+  font-size: 1.8rem;
+}
+
+/* .third-page section---------------- */
+
+.third-page{
+  padding: 2rem 0;
+}
+.third-page h1{
+  font-size: 3.5rem;
+}
+.third-page p{
+  font-size: 1.6rem;
+}
+
+
+
+
+/* forth page secion---------------- */
+
+.forth-col{
+  padding-left: 5rem;
+}
+.forth-page{
+  padding: 5rem 0;
+}
+.forth-page h1{
+  font-size: 3rem;
+}
+
+/* fifth page ---------------------------- */
+.fifth-page{
+  padding: 4rem 0;
+}
+.fifth-page h1{
+  font-size: 3rem;
+}
+.fifth-page p{
+  font-size: 1.7rem;
+}
+
+/* footer page------------------ */
+
+
+
+
+
+
+
+  }
